@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <title></title>
+  <script src="/libs/TweenLite.min.js"></script>
+  <script src="/libs/CSSPlugin.min.js"></script>  
+  <script src="/libs/underscore-min.js"></script>
+  <script src="/libs/jquery-2.1.3.min.js"></script>
+  <script src="/libs/backbone-min.js"></script>
+  <script data-main="/require.config.js" src="/libs/require.js"></script>
+  <link type="text/css" media="screen" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="opacity: 0;">
+
+  <div id="user-list">
+    <div class="my-table my-thead">
+      <div class="my-tr">
+        <div id="first-name-header" class="my-th">
+          <span>First name</span>
+        </div>
+        <div id="last-name-header" class="my-th">
+          <span>Last name</span>
+        </div>
+        <div id="phone-header" class="my-th">
+          <span>Phone</span>
+        </div>
+        <div id="age-header" class="my-th">
+          <span>Age</span>
+        </div>
+        <div id="gender-header" class="my-th">
+          <span>Gender</span>
+        </div>
+        <div id="create-user-header" class="my-th">
+          <button class="button tiny radius expand">
+             Create
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="creation-menu-wrap">
+      <div id="creation-menu" class="my-table my-thead">
+        <div class="my-tr">
+          <label id="first-name" class="my-th"></label>
+          <label id="last-name" class="my-th"></label>
+          <label id="phone" class="my-th"></label>
+          <label id="age" class="my-th"></label>
+          <label id="gender" class="my-th"></label>
+          <div id="add-user" class="my-th">
+            <button class="button tiny radius expand">
+               Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="list" class="my-table my-tbody"></div>
+  </div>
+
+</body>
+</html>
+
+<!-- http://jsbin.com/zucegekobu/1/edit?html,output -->

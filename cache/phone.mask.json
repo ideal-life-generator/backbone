@@ -1,0 +1,17 @@
+[
+  {
+    "code": "380",
+    "mask": "+n n (nnn) nnn nn nn",
+    "location": "Ukrain"
+  },
+  {
+    "code": "1415",
+    "mask": "+n (nnn) nnn nn nn",
+    "location": "Unated States, San-Francisco"
+  },
+  {
+    "code": "4420",
+    "mask": "+nn (nn) nnn nn nn",
+    "location": "Great Britain, London"
+  }
+]
